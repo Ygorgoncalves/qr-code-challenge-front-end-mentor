@@ -16,6 +16,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .card {
@@ -27,6 +28,7 @@ main {
     border-radius: 15px;
     padding: 10px;
     width: 350px;
+    box-shadow: 7px 10px 26px 0px rgba(0,0,0,0.1);
 
 }
 
@@ -58,10 +60,11 @@ img {
     text-align: center;
 }
 
-.head-description h2 {
+.head-description h1 {
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
+    
     
     
 }
